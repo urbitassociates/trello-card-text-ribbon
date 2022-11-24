@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trello Card Text Ribbon Generator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h3>Urb-it Trello Text Ribbon Generator</h3>
+    <form class="form">
+        <p>Choose colors</p>
+        <label for="head">Text color</label>
+        <input type="color" id="textColor" name="head" value="#ffffff">
+        <label for="body">Background color</label>
+        <input type="color" id="backgroundColor" name="body" value="#000000">
+        <label for="text">Text</label>
+        <input type="text" id="text" value="My awesome challenge">
+    </form>
+
+    <canvas id="header" width="248" height="20"></canvas>
+    <div>
+        <button style="display: none;" id="copyButton" type="button">Copy image</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

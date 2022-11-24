@@ -1,0 +1,22 @@
+body {
+  background-color: white;
+}
+
+.form {
+  box-sizing: border-box;
+  background: papayaWhip;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.form > p {
+  flex: 100%;
+}
+
+.form > label,
+.form > input {
+  flex: 50%;
+}
