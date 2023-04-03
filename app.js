@@ -19,7 +19,8 @@ function draw() {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.fillStyle = currentTextColor;
-  ctx.font = "11px Arial";
+  ctx.font = "11px Helvetica";
+  ctx.letterSpacing = "0.5px";
 
   const titleUpperCased = currentTitle.toUpperCase();
   const textWidth = ctx.measureText(titleUpperCased).width;
